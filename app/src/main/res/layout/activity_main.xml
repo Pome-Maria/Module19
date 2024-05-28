@@ -1,0 +1,48 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end|bottom"
+        android:background="#CDDC39"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="677dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:layout_gravity="start|top"
+        android:background="#827717" />
+
+    <LinearLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="372dp"
+        android:layout_width="match_parent"
+        android:layout_height="507dp"
+        android:background="#AED581"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="108dp">
+
+        <Button
+            android:id="@+id/button_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackgroundBorderless"
+            android:text="@string/btn_setting"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
